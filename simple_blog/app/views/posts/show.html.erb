@@ -5,5 +5,5 @@
 <%= link_to "Delete", post_path(@post), method: :delete, data: {confirm: 'Are you sure?'}, :class => 'btn btn-danger' %>
 <hr>
 
-<% render 'comments/comments' %>
-<% render 'comments/form' %>
+<%= render "comments/comments" %>
+<%= render "comments/form" %>
