@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SimpleBlog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav class = "navbar navbar-default">
+      <div class = "container">
+        <ul>
+          <a><%= link_to "Home", home_path %></a>
+        </ul>
+        <ul>
+          <a><%= link_to "Create Post", new_post_path %></a>
+        </ul>
+      </div>
+    </nav>
+    <div class = "container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
