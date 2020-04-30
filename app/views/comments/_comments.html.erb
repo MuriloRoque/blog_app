@@ -1,0 +1,6 @@
+<h3>Comments</h3>
+<% @post.comments.each do |comment| %>
+  <div class = "card card-body bg-light">
+    <p><strong><%= comment.username %></strong>: <%= comment.body + ' '%><%= link_to "[X]", [comment.post, comment], method: :delete, data: {confirm: 'Are you sure?'}, :class => 'btn btn-danger btn-sm' %></p>
+  </div>
+<% end %>
