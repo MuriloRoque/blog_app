@@ -69,3 +69,4 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'sassc', '~> 2.1.0'
+
