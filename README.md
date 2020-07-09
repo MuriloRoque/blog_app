@@ -2,6 +2,8 @@
 
 # Ruby-On-Rails-Training-App (Blog)
 
+![screenshot](images/screenshot.png)
+
 This App was built by following a YouTube tutorial. It is only for study purposes. You can check out the video [here](https://www.youtube.com/watch?v=pPy0GQJLZUM).
 
 In this project I:
@@ -20,10 +22,6 @@ When the App is executed, you can make comments to the posts there. Also, if you
 ## Built with
 
 Ruby on Rails, HTML and Bootstrap.
-
-## Live Demo
-
-Not avaiable at the moment, it will be in here a future feature.
 
 ## Getting Started
 
